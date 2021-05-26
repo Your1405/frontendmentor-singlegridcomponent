@@ -1,0 +1,79 @@
+body {
+    font-family: "Karla";
+    background-color: hsl(204, 43%, 93%);
+    padding: 5% 25%;
+    margin: 0;
+    font-size: 16px;
+}
+
+.main-card {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 45% 55%;
+    margin: 0 auto;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+.top {
+    padding: 2em;
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    background-color: white;
+    border-radius: .5em .5em 0 0;
+}
+
+.top-title {
+    color: hsl(179, 62%, 43%);
+    font-size: 1.8rem;
+}
+
+.top-subtitle {
+    color: hsl(71, 73%, 54%);
+    font-size: 1.5rem;
+}
+
+.card-text {
+    color: hsl(218, 22%, 67%);
+    font-size: 1.1rem;
+}
+
+.bottom-left {
+    padding: 1em 1.75em;
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-left-radius: .5em;
+    color: white;
+}
+
+.bottom-left-title {
+    font-size: 1.5rem;
+}
+
+.price-text {
+    color: hsl(217, 30%, 85%);
+    font-size: 1.1rem;
+}
+
+#price-value {
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    margin-right: .5rem;
+}
+
+.sign-up-button {
+    display: block;
+    border-style: none;
+    color: white;
+    font-family: "Karla";
+    font-weight: 700;
+    background-color: hsl(71, 73%, 54%);
+    margin: 0 auto;
+    width: 100%;
+    font-size: 1rem;
+    padding: .5rem 2.5rem .5rem 2.5rem;
+}
+
+.bottom-right {
+    padding: 1em 1.75em;
+}

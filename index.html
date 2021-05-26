@@ -11,48 +11,53 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <main>
-    <div>
-      <h1>
+  <main class="main-card">
+    <div class="top">
+      <h1 class="top-title">
         Join our community
       </h1>
-      <h2>
+      <h2 class="top-subtitle">
         30-day, hassle-free money back guarantee
       </h2>
-      <p>
-        Gain access to our full library of tutorials along with expert code reviews. 
+      <p class="card-text">
+        Gain access to our full library of tutorials along with expert code reviews.<br>
         Perfect for any developers who are serious about honing their skills.
       </p>
     </div>
-    <div>
-      <h1>
+
+    <div class="bottom-left">
+      <h1 class="bottom-left-title">
         Monthly Subscription
       </h1>
-      <p>
-        <span>&dollar;29</span> per month
+      <p class="price-text">
+        <span id="price-value">&dollar;29</span> per month
       </p>
       <p>
         Full access for less than &dollar;1 a day
       </p>
-      <form>
-        <input type="button" value="Sign Up">
+      <form class="form">
+        <input type="button" value="Sign Up" class="sign-up-button">
       </form>
     </div>
-    <div>
-      <h1>
+
+    <div class="bottom-right">
+      <h1 class="bottom-right-header">
         Why Us
       </h1>
-      <p>
-        Tutorials by industry experts
-        Peer &amp; expert code review
-        Coding exercises
-        Access to our GitHub repos
-        Community forum
-        Flashcard decks
-        New videos every week
+      <p class="card-text">
+        Tutorials by industry experts<br>
+        Peer &amp; expert code review<br>
+        Coding exercises<br>
+        Access to our GitHub repos<br>
+        Community forum<br>
+        Flashcard decks<br>
+        New videos every week<br>
       </p>
     </div>
   </main>
